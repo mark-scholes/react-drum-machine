@@ -12,16 +12,31 @@
     rgba(252, 209, 229, 1) 0%,
     rgba(189, 142, 166, 1) 79%
   );
+  border-radius: 10%;
 }
 
 ul {
   display: flex; /* establish flex container */
   flex-wrap: wrap; /* enable flex items to wrap */
   justify-content: space-around;
+  list-style: none;
+  padding: 5%;
 }
 li {
   flex: 0 0 32%; /* don't grow, don't shrink, width */
-  height: 50px;
+  height: 100px;
   margin-bottom: 5px;
   background-color: #999;
+  justify-content: center;
+  text-align: center;
+  font-size: 12vh;
+  border-radius: 10%;
+}
+#drum_buttons {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  width: 300px;
+  height: 300px;
+  grid-gap: 0.5vh;
 }

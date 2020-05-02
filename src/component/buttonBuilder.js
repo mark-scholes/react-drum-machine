@@ -54,7 +54,7 @@ class ButtonBuilder extends Component {
       );
     });
 
-    return <div>{links}</div>;
+    return <div id="drum_buttons">{links}</div>;
   }
 }
 export default ButtonBuilder;
