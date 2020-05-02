@@ -1,0 +1,27 @@
+#drum-machine {
+  background-color: #373e49;
+}
+
+#display {
+  background-color: #b3fcff;
+}
+
+.drum-pad {
+  background: radial-gradient(
+    circle,
+    rgba(252, 209, 229, 1) 0%,
+    rgba(189, 142, 166, 1) 79%
+  );
+}
+
+ul {
+  display: flex; /* establish flex container */
+  flex-wrap: wrap; /* enable flex items to wrap */
+  justify-content: space-around;
+}
+li {
+  flex: 0 0 32%; /* don't grow, don't shrink, width */
+  height: 50px;
+  margin-bottom: 5px;
+  background-color: #999;
+}
