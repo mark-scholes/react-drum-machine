@@ -1,18 +1,18 @@
 import React, { Component } from "react";
-import AudioLinks from "./component/data";
+import audioLinks from "./component/data";
 import ButtonBuilder from "./component/buttonBuilder";
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      drums: AudioLinks
+      drums: audioLinks,
     };
   }
 
   render() {
     return (
       <div id="drum-machine">
-        <p id="display"></p>
+        <p id="display">BoomBoom</p>
         <div id="container">
           <ul>
             <ButtonBuilder drums={this.state.drums} />
