@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div id="drum-machine">
-        <p id="display">BoomBoom</p>
+        <p id="display">Drum Machine</p>
         <div id="container">
           <ul>
             <ButtonBuilder drums={this.state.drums} />
